@@ -1,9 +1,9 @@
 import cls from './Weather.module.css'
 import Cloud from '../../assets/cloud.svg'
 
-const WeatherStatus = ({temp}) => {
-    const days =["Monday","Tuesday","Wednesday","Thursday","Friday","Sunday","Saturday"]
-    const monthArr =["January","February","March","April","May","June","July","August","September","October","November","December"]
+const WeatherStatus = ({temp, wStatus}) => {
+    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    const monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 
     const date = new Date()
@@ -14,11 +14,14 @@ const WeatherStatus = ({temp}) => {
     return (
         <div className={cls.flex}>
             <div className={''}>
-                <h2 className={cls.wStatus}>Cloudy</h2>
+                <h2 className={cls.wStatus}>{wStatus}</h2>
+                <div className={cls.wMobileImg}>
+                    <img src={Cloud} alt=""/>
+                </div>
                 <h2 className={cls.wTemp}>{Math.round(temp - 273.15)}°C</h2>
-                <p>{days[day-1]} | {dates} {monthArr[month]} {year}</p>
+                <p>{days[day - 1]} | {dates} {monthArr[month]} {year}</p>
             </div>
-            <div className="">
+            <div className={cls.wImg}>
                 <img src={Cloud} alt=""/>
             </div>
         </div>

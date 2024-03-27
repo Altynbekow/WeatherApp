@@ -1,0 +1,13 @@
+
+.info__wrap{
+    height: 537px;
+    width: 324px;
+    border-radius: 40px;
+    background: #DEAB4D;
+}
+
+@media (max-width: 768px) {
+    .info__wrap{
+        display: none;
+    }
+}

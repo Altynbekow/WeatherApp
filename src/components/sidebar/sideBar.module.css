@@ -1,0 +1,20 @@
+
+.sideBar{
+    width: 100px;
+    height: 537px;
+    border-radius: 40px;
+    padding: 20px;
+    background: #DEAB4D ;
+}
+@media (max-width: 768px) {
+    .sideBar{
+        display: none;
+    }
+
+}
+.side{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
