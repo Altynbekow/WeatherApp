@@ -8,16 +8,24 @@ import weather from '../../assets/weather.svg'
 const SideBar = () => {
     return (
         <div className={cls.sideBar}>
-            <img src={logo} alt=""/>
-            <div className={'side'}>
+            <div className={cls.side__top}>
+                <img src={logo} alt=""/>
+            </div>
+            <div className={cls.side__nav}>
                 <img src={weather} alt=""/>
-                weather
-                <img src={explor} alt=""/>
-                explore
-                <img src={vector} alt=""/>
-                cities
-                <img src={icon} alt=""/>
-                settings
+                <p>weather</p>
+            </div>
+            <div className={cls.side__explor}>
+                <img className={cls.side__explor} src={explor} alt=""/>
+                <p className={cls.side__explori}>explore</p>
+            </div>
+            <div className={cls.side}>
+                <img className={cls.side__explor} src={vector} alt=""/>
+                <p className={cls.side__explori}>cities</p>
+            </div>
+            <div className={cls.side}>
+                <img className={cls.side__explor} src={icon} alt=""/>
+                <p className={cls.side__explori}>settings</p>
             </div>
         </div>
     );
