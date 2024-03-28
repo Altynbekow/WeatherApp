@@ -1,8 +1,8 @@
 import cls from './Weather.module.css'
 import Cloud from '../../assets/cloud.svg'
+import {days} from '../../constants'
 
 const WeatherStatus = ({temp, wStatus}) => {
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     const monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 
