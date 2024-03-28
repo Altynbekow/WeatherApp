@@ -12,40 +12,14 @@
     }
 
 }
-.side{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*margin-top: 100px;*/
+
+.menu {
+    padding-top: 3rem;
 }
-.side__p{
-    font-family: Inter,sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16.94px;
-    text-align: center;
+.icmenu {
+    width: 95px;
+    height: 78px;
+    margin-top: 1rem;
+    margin-left: -1rem;
 }
 
-.side__top{
-    margin-bottom: 100px;
-}
-.side__nav{
-    font-family: Inter,sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16.94px;
-    text-align: center;
-    margin-bottom: 22px;
-}
-.side__explori{
-    font-family: Inter,sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16.94px;
-    text-align: center;
-    margin-bottom: 22px;
-}
-.side__explor{
-    text-align: center;
-    margin-left: 5px;
-}
