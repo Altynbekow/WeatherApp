@@ -12,16 +12,7 @@
     margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
-    .country__wrap:first-child {
-        display: none;
-    }
 
-    .country__wrap:last-child {
-        width: 382px;
-    }
-
-}
 
 .country__wrap {
     width: 884px;
@@ -32,10 +23,6 @@
     margin-bottom: 31px;
 }
 
-.country__wrap:last-child {
-    height: 262px;
-    margin-bottom: 0;
-}
 
 .text {
     margin-left: 2.5rem;
