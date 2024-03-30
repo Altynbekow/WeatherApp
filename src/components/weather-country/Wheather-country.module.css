@@ -59,6 +59,9 @@
     display: flex;
     gap: 9.8rem;
 }
+.country__wrapMiddle{
+    display: none;
+}
 
 @media (max-width: 768px) {
     .country__wrap:first-child {
@@ -68,4 +71,8 @@
     .country__wrap:last-child {
         width: 382px;
     }
+    .country__wrapMiddle{
+        display: block;
+    }
+
 }

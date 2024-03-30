@@ -4,6 +4,7 @@ import les from '../../assets/summer.svg'
 import autumn from '../../assets/autumn.svg'
 import summer from '../../assets/park.svg'
 import palm from '../../assets/beach.svg'
+import WeatherWeek from "../weather-info/WeatherWeek/WeatherWeek.jsx";
 
 const WeatherCountry = () => {
     return (
@@ -26,8 +27,11 @@ const WeatherCountry = () => {
                     <h3 className={cls.away}>500m away</h3>
                 </div>
             </div>
+            <div className={cls.country__wrapMiddle}>
+                <WeatherWeek/>
+            </div>
             <div className={cls.country__wrap}></div>
-        </div>
+            </div>
     )
 }
 
